@@ -1,0 +1,25 @@
+Collision Dynamics of Topologically Pumped Solitons
+
+MATLAB source-code package. This package contains 11 programs supplied by the author. Simulation MAT files and the manuscript are not included.
+
+Getting started
+
+Extract the archive and set MATLAB's Current Folder to this directory. Run only the calculation or analysis needed for your chosen case. Do not run all files sequentially: several scripts clear the workspace, and post-processing programs require a specific simulation result.
+
+
+Programs and dependencies
+
+fig11.m — Linear bands and Chern-number calculation. Input: Standalone.
+fig12.m — Scalar soliton construction and pumping. Input: Standalone.
+fig2.m — Two-component collision evolution. Input: Set coupling and peak amplitudes for each case; saves MAT data.
+fig31.m — Component-2 core band populations. Input: MAT result from the corresponding fig2 case.
+fig32.m — Separation and energy diagnostics. Input: MAT result from the corresponding fig2 case.
+fig33.m — Collision conversion and band diagnostics. Input: MAT result from the corresponding fig2 case.
+fig4.m — Collisions of vector solitons at relative phases 0 and pi. Input: Standalone; saves a separate MAT file for each phase.
+fig51.m — Vector-collision populations and related diagnostics. Input: Select the appropriate fig4 result.
+fig52.m — Phase-0/pi population analysis. Input: Select the phase-0/pi fig4 result.
+FigA11.m — Wannier states, soliton construction and pumping. Input: Standalone.
+figA12.m — Amplitude scan and pumping displacement. Input: Standalone function.
+
+
+
